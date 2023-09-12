@@ -8,8 +8,5 @@ uvicorn[standard]
 fastapi
 pydantic
 git+https://github.com/LIAAD/yake
-<<<<<<< HEAD
 ipdb
-=======
-ipdb
->>>>>>> b6b8070 (Banku)
+
