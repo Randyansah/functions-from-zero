@@ -1,5 +1,13 @@
 # functions-from-zero
+#functions-from-zero
+A repo to learn functions
 
+## Step1: Configure Development Environment
+* COnfigure Github codespaces or the equivalent(Cloud9, etc)
+* Create scaffold for structure or projects
+* Optional(setup virtualenv) (install ipython outside of rewuirements.txt))
+
+  
 [![Python application test with Github Actions](https://github.com/Randyansah/functions-from-zero/actions/workflows/main.yml/badge.svg)](https://github.com/Randyansah/functions-from-zero/actions/workflows/main.yml)
 
 ### To call Microservice
