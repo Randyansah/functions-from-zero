@@ -8,7 +8,8 @@ test:
 format:
 	black *.py mylib/*.py
 lint:
-	pylint --disable=R,C,E1120 *.py
+	pylint --disable=R,C --extension-pkg-whitelist='pydantic' main.py --ignore-patterns=test_.*?py *.py  mylib/*.py
+	pylint --disable=R,C,E1120 *.py 
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
