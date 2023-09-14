@@ -5,7 +5,7 @@ from mylib.logistics import (
     travel_time,
 )
 from fastapi.testclient import TestClient
-from main import app
+from main_one import app
 import pytest
 
 
