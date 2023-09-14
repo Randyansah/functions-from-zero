@@ -9,4 +9,4 @@ fastapi
 pydantic
 git+https://github.com/LIAAD/yake
 ipdb
-
+geopy
